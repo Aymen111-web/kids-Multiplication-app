@@ -1,0 +1,85 @@
+/** @format */
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(145deg, #169840, #a94646);
+  font-family: cursive;
+  
+}
+.form {
+  background-color: aliceblue;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+ 
+}
+#input {
+  display:inline-block ;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  border: solid 4px greenyellow;
+  color: green;
+
+}
+#input::placeholder{
+    color: lightgray;
+    font-family: cursive;
+}
+.submit{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 0;
+box-sizing: border-box;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+cursor: pointer;
+
+}
+.submit:hover{
+    filter: brightness(0.8);
+}
+.score{
+    color: green;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+#question{
+    margin: 40px 0;
+    font-size: 25px;
+}
+
+.me {
+  margin-top: 20px;
+  background-color: Green;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+.me h3 {
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 10px;
+  font-size: 30px;
+}
+.me:hover{
+ background-color: rgb(20, 240, 20);
+ 
+}
